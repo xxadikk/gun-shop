@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+.RatesBlock {
+  padding: 10px 0;
+}
+.RatesBlock * img {
+  width: 100%;
+}
+.RatesBlock * {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: #000000;
+}
+.RatesBlock * h5 {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #000000;
+}
+.RatesBlock * p i {
+  color: #000000a6;
+}
+
+.RatesBlock * p {
+  color: #455b66;
+  width: 89%;
+  height: 100%;
+}
+
+.RatesBlock__body .RatesBlock-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px 10px;
+}
+
+.RatesBlock-section .RatesBlock-section__block {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 140px;
+  gap: 5px 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px 30px;
+}
+.RatesBlock-section .block-black {
+  background-color: #030b18;
+}
+.RatesBlock-section__block div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 100px;
+}
+.block-black span {
+  color: white;
+}
+.block-black h5 {
+  color: white;
+}
+.block-black p {
+  color: #a8a8a8;
+}
+.block-black p i {
+  color: #ffffff;
+}
+.RatesBlock-section__block button {
+  font-size: 0.8rem;
+  font-weight: 400;
+
+  padding: 15px 30px;
+  color: white;
+}

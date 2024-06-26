@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+.nav {
+  margin-top: 78px;
+}
+.navbarblock {
+  background-color: #000000;
+  position: fixed; /* Фиксировать navbar сверху */
+  top: 0; /* Позиционировать navbar по верхнему краю */
+  width: 100%; /* Занимать всю ширину экрана */
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  transition: background-color 200ms ease;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.navbar .nav-menu {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  gap: 0 5%;
+  list-style-type: none;
+  padding: 0 15px;
+}
+
+.navbar .nav-menu a {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+.navbar .nav-menu a:hover {
+  color: #1b72ff;
+}
+.nav-btn {
+  width: 5%;
+}
+.nav-logo > img {
+  width: 250px;
+}
+
+.nav-btn .btn {
+  padding: 10px 35px;
+}
+
+.active {
+  color: #1b72ff !important;
+  border-bottom: 2px solid #1b72ff;
+  padding: 0 0 2px 0;
+}
+.navbarblock.scroll {
+  background-color: #030b18e7;
+}
+
+.navbarblock.scroll * a {
+  color: white;
+}
+
+.nav-input * {
+  color: black;
+  background-color: #f5f3f3;
+}
+
+.nav-input input,
+input:focus,
+input:active {
+  border: none;
+  outline: none;
+}
+.nav-input input {
+  /* height: 50px; */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}

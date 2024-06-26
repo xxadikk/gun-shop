@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+#root {
+  background-color: #f5f3f3;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 10%;
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  background-color: #1b72ff;
+}
+
+.container-title {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 30px 0;
+}
+
+.container-title h4 {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+}

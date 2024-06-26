@@ -1,0 +1,49 @@
+.applicationBlock {
+  margin: 30px 0 100px 0;
+}
+.applicationBlock * {
+  color: black;
+}
+
+.applicationBlock__body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.application-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+.application-form h4 {
+  font-size: 26px;
+  font-weight: 500;
+}
+.application-form button {
+  width: 30%;
+  padding: 15px 5px;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.application-form__input {
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
+}
+.application-form__input input,
+input:focus,
+input:active {
+  border: none;
+  outline: none;
+}
+.application-form__input input {
+  /* height: 50px; */
+  padding: 20px 30px;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}

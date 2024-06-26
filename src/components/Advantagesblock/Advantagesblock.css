@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+.advantagesblock {
+  padding: 100px 0;
+}
+.advantagesblock * img {
+  width: 80%;
+}
+.advantagesblock * span {
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: #000000;
+}
+.advantagesblock * span i {
+  color: #1b72ff;
+}
+
+.advantagesblock * p {
+  color: #455b66;
+  width: 70%;
+}
+
+.advantagesTop-block,
+.advantagesBottom-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.block__body-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.block__body-section .sectionTitle {
+  display: flex;
+  justify-content: center;
+}
+.block__body-section .sectionIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.block__body {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 30%;
+  padding: 40px 60px;
+  gap: 20px;
+}
+
+.advantagesCenter-block {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+.advantagesCenter-block button {
+  padding: 20px 60px;
+  border-radius: 16px;
+  transition: 300ms;
+}
+.advantagesCenter-block button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}

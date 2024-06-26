@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.menu-block {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+  gap: 0 30px;
+}
+
+.menu-block div {
+  color: #101828;
+}
+
+.menu-block ul li {
+  color: #617e8c;
+}
+.title-block {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #000000;
+}
+
+.menu {
+  margin-bottom: 20px;
+}
